@@ -64,7 +64,7 @@ btnRoll.addEventListener('click', function(){
        
         } 
         // setting my background fo the winner
-        if (score[activePlayer] >=10){
+        if (score[activePlayer] >=100){
             btnRoll.able=false;
 
             playing=false;
@@ -76,8 +76,6 @@ btnRoll.addEventListener('click', function(){
         }else{
         
         }
-        
-        
         
         
     //seting up my btn new game to reset the game    
