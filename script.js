@@ -81,7 +81,7 @@ btnRoll.addEventListener('click', function(){
     //seting up my btn new game to reset the game    
    });
 btnNew.addEventListener('click', function(){
-    btnHold.disabled=false;
+btnHold.disabled=false;
 score0.textContent=0;
 score1.textContent=0;
 current0.textContent=0;
